@@ -1,0 +1,730 @@
+[
+  {
+    "id": "C1",
+    "category": "certificate",
+    "name": "Income Certificate",
+    "keywords": [
+      "income certificate",
+      "income",
+      "ఆదాయ ధృవీకరణ పత్రం",
+      "ఆదాయ సర్టిఫికేట్"
+    ],
+    "title": "Income Certificate",
+    "summary": "An Income Certificate is an official Revenue Department certificate used to establish annual income for eligible government services, schemes, scholarships and other purposes.",
+    "eligibility": "Citizens who need an official certificate establishing their income for an applicable government or administrative purpose.",
+    "steps": [
+      "Apply through the applicable Telangana government service channel.",
+      "Provide the required personal and income-related information.",
+      "Submit the required supporting documents.",
+      "Track the application and collect the certificate when issued."
+    ],
+    "documents": [
+      "Identity proof",
+      "Address/residence proof",
+      "Income-related supporting documents"
+    ],
+    "department": "Revenue Department",
+    "application_channel": "MeeSeva / Telangana State services",
+    "source_title": "Telangana State Portal - State Services",
+    "source_url": "https://www.telangana.gov.in/services/state-services/",
+    "last_verified": "2026-09-15",
+    "translations": {
+  "te": {
+    "title": "ఆదాయ ధృవీకరణ పత్రం",
+    "summary": "మీ కుటుంబం లేదా మీ వార్షిక ఆదాయాన్ని అధికారికంగా ధృవీకరించే పత్రాన్ని ఆదాయ ధృవీకరణ పత్రం అంటారు. ఇది ప్రభుత్వ పథకాలు, స్కాలర్‌షిప్‌లు మరియు ఇతర అవసరాలకు ఉపయోగపడుతుంది.",
+    "eligibility": "ఆదాయ ధృవీకరణ పత్రం అవసరమైన వ్యక్తులు దరఖాస్తు చేసుకోవచ్చు.",
+    "steps": [
+      "MeeSeva ద్వారా ఆదాయ ధృవీకరణ పత్రానికి దరఖాస్తు చేయండి.",
+      "అవసరమైన వ్యక్తిగత మరియు ఆదాయ వివరాలను సమర్పించండి.",
+      "అవసరమైన పత్రాలను జత చేయండి.",
+      "దరఖాస్తు పరిశీలన పూర్తయ్యే వరకు వేచి ఉండండి.",
+      "జారీ అయిన పత్రాన్ని MeeSeva ద్వారా పొందండి లేదా ధృవీకరించండి."
+    ],
+    "documents": [
+      "దరఖాస్తు ఫారం",
+      "ఆధార్ లేదా ఇతర గుర్తింపు పత్రం",
+      "చిరునామా ధృవీకరణ పత్రం",
+      "ఆదాయానికి సంబంధించిన పత్రాలు"
+    ],
+    "department": "తెలంగాణ రెవెన్యూ శాఖ",
+    "application_channel": "MeeSeva"
+  }
+}
+  },
+
+  {
+    "id": "C2",
+    "category": "certificate",
+    "name": "Caste Certificate",
+    "keywords": [
+      "caste certificate",
+      "caste",
+      "కుల ధృవీకరణ పత్రం",
+      "కుల సర్టిఫికేట్"
+    ],
+    "title": "Caste Certificate",
+    "summary": "A Caste Certificate is an official certificate used to establish caste for eligible government services, education, employment, reservations and other official purposes.",
+    "eligibility": "Citizens who need an official caste certificate for an applicable government, education or employment purpose.",
+    "steps": [
+      "Apply through the applicable Telangana government service channel.",
+      "Provide your personal and caste-related information.",
+      "Submit the required supporting documents.",
+      "Track the application and collect the certificate when issued."
+    ],
+    "documents": [
+      "Application form",
+      "Relevant caste certificate of family members, where applicable",
+      "SSC marks memo, DOB extract or Transfer Certificate",
+      "Study certificates or applicable date-of-birth records",
+      "Ration card, EPIC card or Aadhaar card",
+      "Other prescribed supporting forms/documents"
+    ],
+    "department": "Revenue Department",
+    "application_channel": "MeeSeva",
+    "source_title": "Ranga Reddy District - Caste Certificate",
+    "source_url": "https://rangareddy.telangana.gov.in/service/caste-certificate/",
+    "last_verified": "2026-09-15",
+    "translations": {
+  "te": {
+    "title": "కుల ధృవీకరణ పత్రం",
+    "summary": "మీ కులానికి సంబంధించిన అధికారిక ధృవీకరణ పత్రాన్ని కుల ధృవీకరణ పత్రం అంటారు. ఇది విద్య, ఉద్యోగం మరియు ఇతర ప్రభుత్వ ప్రయోజనాల కోసం ఉపయోగించవచ్చు.",
+    "eligibility": "తమ కులానికి అధికారిక ధృవీకరణ అవసరమైన తెలంగాణ నివాసితులు దరఖాస్తు చేసుకోవచ్చు.",
+    "steps": [
+      "సమీపంలోని MeeSeva కేంద్రంలో కుల ధృవీకరణ పత్రానికి దరఖాస్తు చేయండి.",
+      "మీ వ్యక్తిగత మరియు కుటుంబ వివరాలను సమర్పించండి.",
+      "అవసరమైన కులం, వయస్సు మరియు గుర్తింపు పత్రాలను సమర్పించండి.",
+      "అధికారులు దరఖాస్తును పరిశీలించిన తర్వాత ధృవీకరణ పత్రం జారీ చేస్తారు.",
+      "జారీ అయిన ధృవీకరణ పత్రాన్ని MeeSeva ద్వారా పొందండి."
+    ],
+    "documents": [
+      "దరఖాస్తు ఫారం",
+      "కుటుంబ సభ్యుల కుల ధృవీకరణ పత్రం, అందుబాటులో ఉంటే",
+      "SSC మార్కుల మెమో / జనన తేదీ ధృవీకరణ / బదిలీ ధృవీకరణ పత్రం",
+      "1వ తరగతి నుండి 10వ తరగతి వరకు చదువు ధృవీకరణ పత్రాలు లేదా సంబంధిత జనన తేదీ ధృవీకరణ",
+      "రేషన్ కార్డు / EPIC కార్డు / ఆధార్ కార్డు",
+      "అవసరమైన Schedule I నుండి IV పత్రాలు"
+    ],
+    "department": "తెలంగాణ రెవెన్యూ శాఖ",
+    "application_channel": "MeeSeva"
+  }
+}
+  },
+  {
+    "id": "C3",
+    "category": "certificate",
+    "name": "Residence Certificate",
+    "keywords": [
+      "residence certificate",
+      "domicile certificate",
+      "residence",
+      "domicile",
+      "నివాస ధృవీకరణ పత్రం",
+      "నివాస సర్టిఫికేట్"
+    ],
+    "title": "Residence / Domicile Certificate",
+    "summary": "A Residence or Domicile Certificate is an official document used to establish a person's residential status for applicable government and administrative purposes.",
+    "eligibility": "Citizens who need official proof of residence or domicile for an applicable purpose.",
+    "steps": [
+      "Apply through the applicable Telangana government service channel.",
+      "Provide your residential and personal details.",
+      "Submit the required address-related documents.",
+      "Track the application and collect the certificate when issued."
+    ],
+    "documents": [
+      "Application form",
+      "Identity proof",
+      "Address/residence proof",
+      "Other supporting documents, where applicable"
+    ],
+    "department": "Revenue Department",
+    "application_channel": "MeeSeva",
+    "source_title": "Ranga Reddy District - Residence Certificate",
+    "source_url": "https://rangareddy.telangana.gov.in/service/residence-certificate/",
+    "last_verified": "2026-09-15",
+    "translations": {
+  "te": {
+    "title": "నివాస ధృవీకరణ పత్రం",
+    "summary": "మీరు ఒక గ్రామం, పట్టణం లేదా వార్డులో శాశ్వతంగా నివసిస్తున్నారని ధృవీకరించే పత్రం నివాస ధృవీకరణ పత్రం.",
+    "eligibility": "నివాసాన్ని అధికారికంగా ధృవీకరించాల్సిన వ్యక్తులు ఈ సేవను ఉపయోగించవచ్చు.",
+    "steps": [
+      "MeeSeva ద్వారా నివాస ధృవీకరణ పత్రానికి దరఖాస్తు చేయండి.",
+      "మీ వ్యక్తిగత మరియు నివాస వివరాలను సమర్పించండి.",
+      "గుర్తింపు మరియు నివాసానికి సంబంధించిన పత్రాలను జత చేయండి.",
+      "దరఖాస్తు పరిశీలన పూర్తయ్యే వరకు వేచి ఉండండి.",
+      "జారీ అయిన నివాస ధృవీకరణ పత్రాన్ని పొందండి."
+    ],
+    "documents": [
+      "దరఖాస్తు ఫారం",
+      "రేషన్ కార్డు / EPIC కార్డు / ఆధార్ కార్డు",
+      "ఇంటి పన్ను రసీదు / టెలిఫోన్ బిల్లు / విద్యుత్ బిల్లు",
+      "పాస్‌పోర్ట్ కోసం దరఖాస్తు చేస్తే ఫోటో"
+    ],
+    "department": "తెలంగాణ రెవెన్యూ శాఖ",
+    "application_channel": "MeeSeva"
+  }
+}
+  },
+  {
+    "id": "L3",
+    "category": "land_revenue",
+    "name": "Land Record Correction",
+    "keywords": [
+      "land record correction",
+      "wrong name in land records",
+      "wrong name",
+      "incorrect name",
+      "name correction",
+      "land records",
+      "భూమి రికార్డు",
+      "పేరు తప్పుగా ఉంది",
+      "పేరు సరిచేయాలి",
+      "భూమి రికార్డులో పేరు"
+    ],
+    "title": "Land Record Correction",
+    "summary": "If information in a land record appears to be incorrect, the appropriate Telangana land-record service or grievance process depends on the type of error.",
+    "eligibility": "Landholders or affected citizens who need to address an incorrect land-record entry through the applicable government process.",
+    "steps": [
+      "Identify exactly what information in the land record is incorrect.",
+      "Keep the relevant land and identity documents ready.",
+      "Use the applicable Telangana land-record service or grievance process.",
+      "Track the application or grievance and follow any instructions from the concerned department."
+    ],
+    "documents": [
+      "Identity proof",
+      "Relevant land record",
+      "Supporting ownership or transaction documents, where applicable"
+    ],
+    "department": "Revenue Department / CCLA",
+    "application_channel": "Bhu Bharati / applicable Telangana land-record service",
+    "source_title": "Telangana State Portal - State Services",
+    "source_url": "https://www.telangana.gov.in/services/state-services/",
+    "last_verified": "2026-09-15",
+    "translations": {
+  "te": {
+    "title": "భూ రికార్డు సవరణ",
+    "summary": "మీ భూ రికార్డు లేదా పట్టాదారు పాస్‌బుక్‌లో పేరు లేదా ఇతర వివరాలు తప్పుగా ఉంటే, సంబంధిత Bhu Bharati సవరణ సేవ ద్వారా దాన్ని సరిచేయడానికి దరఖాస్తు చేయవచ్చు.",
+    "eligibility": "భూ రికార్డులో తప్పు లేదా సవరణ అవసరమైన వివరాలు ఉన్న పట్టాదారులు లేదా సంబంధిత హక్కుదారులు దరఖాస్తు చేయవచ్చు.",
+    "steps": [
+      "Bhu Bharati పోర్టల్‌లో ROR Corrections విభాగాన్ని తెరవండి.",
+      "సంబంధిత Passbook Data Correction సేవను ఎంచుకోండి.",
+      "మీ వ్యక్తిగత మరియు భూమి వివరాలను నమోదు చేయండి.",
+      "సవరణకు సంబంధించిన ఆధారాలను సమర్పించండి.",
+      "అవసరమైన రుసుము చెల్లించి e-Challan మరియు Transaction Summaryని పొందండి.",
+      "అవసరమైన eKYC ప్రక్రియను పూర్తి చేయండి.",
+      "దరఖాస్తు శాఖకు పంపబడిన తర్వాత పరిశీలన మరియు నిర్ణయం కోసం వేచి ఉండండి."
+    ],
+    "documents": [
+      "గుర్తింపు పత్రం",
+      "భూమి / పట్టాదారు పాస్‌బుక్ వివరాలు",
+      "తప్పు వివరాలను చూపించే భూ రికార్డు",
+      "సవరణకు మద్దతు ఇచ్చే సంబంధిత ఆధార పత్రాలు"
+    ],
+    "department": "తెలంగాణ రెవెన్యూ శాఖ",
+    "application_channel": "Bhu Bharati"
+  }
+}
+  },
+  {
+  "id": "L1",
+  "category": "land_revenue",
+  "name": "Record of Rights / Land Record",
+  "keywords": [
+    "record of rights",
+    "ror",
+    "land record",
+    "land records",
+    "pattadar",
+    "pattadar passbook",
+    "land details",
+    "భూమి రికార్డు",
+    "పట్టాదారు",
+    "పట్టాదారు పాస్‌బుక్"
+  ],
+  "title": "Record of Rights / Land Record",
+  "summary": "The Record of Rights contains official information relating to land records. Telangana's current Bhu Bharati system provides online access to land-record information and related services.",
+  "eligibility": "Citizens who need to view or verify information relating to a land record.",
+  "steps": [
+    "Open the Telangana Bhu Bharati land-record service.",
+    "Select the relevant district, division, mandal and village.",
+    "Provide the required survey or land details.",
+    "Review the available land-record information."
+  ],
+  "documents": [
+    "Survey number or relevant land details",
+    "Pattadar Passbook or other land documents, if available",
+    "Identity information where required for a transactional service"
+  ],
+  "department": "Revenue Department / Chief Commissioner of Land Administration",
+  "application_channel": "Bhu Bharati",
+  "source_title": "Telangana Bhu Bharati",
+  "source_url": "https://bhubharati.telangana.gov.in/",
+  "last_verified": "2026-09-15",
+  "translations": {
+  "te": {
+    "title": "భూమి హక్కుల రికార్డు (ROR)",
+    "summary": "మీ భూమికి సంబంధించిన యాజమాన్యం మరియు హక్కుల వివరాలను ప్రభుత్వ భూ రికార్డుల్లో చూడటానికి ROR ఉపయోగపడుతుంది.",
+    "eligibility": "తమ భూమికి సంబంధించిన రికార్డులను పరిశీలించాల్సిన పౌరులు ఈ సేవను ఉపయోగించవచ్చు.",
+    "steps": [
+      "Bhu Bharati పోర్టల్‌ను తెరవండి.",
+      "మీ జిల్లా, డివిజన్, మండలం మరియు గ్రామాన్ని ఎంచుకోండి.",
+      "సంబంధిత సర్వే నంబర్‌ను నమోదు చేయండి.",
+      "భూమికి సంబంధించిన ROR మరియు ఇతర అందుబాటులో ఉన్న వివరాలను పరిశీలించండి.",
+      "రికార్డులో సమస్య ఉంటే సంబంధిత Bhu Bharati సవరణ లేదా ఫిర్యాదు సేవను ఉపయోగించండి."
+    ],
+    "documents": [
+      "సర్వే నంబర్",
+      "భూమికి సంబంధించిన పట్టాదారు పాస్‌బుక్ వివరాలు, అందుబాటులో ఉంటే",
+      "గుర్తింపు వివరాలు"
+    ],
+    "department": "తెలంగాణ రెవెన్యూ శాఖ",
+    "application_channel": "Bhu Bharati"
+  }
+}
+},
+{
+  "id": "L2",
+  "category": "land_revenue",
+  "name": "Mutation / Succession",
+  "keywords": [
+    "mutation",
+    "mutation of land",
+    "land mutation",
+    "succession",
+    "inheritance",
+    "inherit land",
+    "property after death",
+    "name transfer",
+    "మ్యుటేషన్",
+    "వారసత్వం",
+    "భూమి వారసత్వం"
+  ],
+  "title": "Land Mutation / Succession",
+  "summary": "Telangana's Bhu Bharati system provides mutation and succession services for updating land records following applicable transactions or succession.",
+  "eligibility": "Landholders, transferees or legal heirs who need an applicable land-record mutation or succession process.",
+  "steps": [
+    "Identify whether the request is for mutation or succession.",
+    "Enter the required land and applicant information in Bhu Bharati.",
+    "Complete the applicable payment and verification steps.",
+    "For succession, complete slot booking where required.",
+    "The application is forwarded to the concerned department for further processing."
+  ],
+  "documents": [
+    "Relevant land/property details",
+    "Identity documents",
+    "Registered transaction documents, where applicable",
+    "For succession: death certificate",
+    "For succession: family member certificate",
+    "For succession: joint agreement of legal heirs"
+  ],
+  "department": "Revenue Department / Chief Commissioner of Land Administration",
+  "application_channel": "Bhu Bharati",
+  "source_title": "Telangana Bhu Bharati - Mutation and Succession",
+  "source_url": "https://bhubharati.telangana.gov.in/",
+  "last_verified": "2026-09-15",
+  "translations": {
+  "te": {
+    "title": "భూమి మ్యూటేషన్ / వారసత్వ మార్పు",
+    "summary": "భూమి యాజమాన్య హక్కుల్లో మార్పు జరిగినప్పుడు ప్రభుత్వ భూ రికార్డుల్లో ఆ మార్పును నమోదు చేయడాన్ని Mutation అంటారు. యజమాని మరణించిన తర్వాత చట్టబద్ధమైన వారసుల పేర్లకు భూమి రికార్డును మార్చే ప్రక్రియను Succession ద్వారా చేయవచ్చు.",
+    "eligibility": "భూమిపై చట్టబద్ధమైన హక్కు పొందిన వ్యక్తులు లేదా మరణించిన పట్టాదారు యొక్క చట్టబద్ధ వారసులు సంబంధిత ప్రక్రియ ద్వారా దరఖాస్తు చేయవచ్చు.",
+    "steps": [
+      "Bhu Bharati పోర్టల్‌లో సంబంధిత Mutation లేదా Succession సేవను ఎంచుకోండి.",
+      "అవసరమైన వ్యక్తిగత మరియు భూమి వివరాలను నమోదు చేయండి.",
+      "అవసరమైన రుసుము చెల్లించండి.",
+      "అవసరమైన e-Challan మరియు Transaction Summaryని డౌన్‌లోడ్ చేయండి.",
+      "అవసరమైన చోట MeeSeva eKYC లేదా Slot Booking పూర్తి చేయండి.",
+      "వారసత్వం ఆధారంగా దరఖాస్తు చేస్తే మరణ ధృవీకరణ పత్రం, కుటుంబ సభ్యుల ధృవీకరణ పత్రం మరియు చట్టబద్ధ వారసుల సంయుక్త ఒప్పందం వంటి అవసరమైన పత్రాలను సమర్పించండి.",
+      "అధికారుల పరిశీలన మరియు నిర్ణయం పూర్తయ్యే వరకు వేచి ఉండండి."
+    ],
+    "documents": [
+      "మరణ ధృవీకరణ పత్రం, వర్తించినప్పుడు",
+      "కుటుంబ సభ్యుల ధృవీకరణ పత్రం, వర్తించినప్పుడు",
+      "చట్టబద్ధ వారసుల సంయుక్త ఒప్పందం, వర్తించినప్పుడు",
+      "భూమికి సంబంధించిన ఇతర ఆధార పత్రాలు"
+    ],
+    "department": "తెలంగాణ రెవెన్యూ శాఖ",
+    "application_channel": "Bhu Bharati"
+  }
+}
+},
+{
+  "id": "L4",
+  "category": "land_revenue",
+  "name": "Land Conversion / NALA",
+  "keywords": [
+    "nala",
+    "land conversion",
+    "convert agricultural land",
+    "agricultural land conversion",
+    "land use conversion",
+    "change land use",
+    "change the use of land",
+    "convert land for non agricultural use",
+    "non agricultural use",
+    "non-agricultural use",
+    "నాలా",
+    "భూమి మార్పిడి",
+    "వ్యవసాయ భూమి మార్పిడి",
+    "భూమిని మార్చాలి",
+    "భూమి ఉపయోగం మార్చాలి",
+    "భూమిని వేరే ఉపయోగానికి మార్చాలి",
+    "వ్యవసాయ భూమిని మార్చాలి",
+    "వ్యవసాయ భూమి నుండి వేరే ఉపయోగానికి",
+    "వ్యవసాయ భూమిని వేరే ఉపయోగానికి మార్చాలి",
+    "వ్యవసాయేతర ఉపయోగం",
+    "వ్యవసాయేతర వినియోగం"
+  ],
+  "title": "Land Conversion / NALA",
+  "summary": "NALA is the applicable process for conversion of agricultural land to non-agricultural use under the Telangana land administration system.",
+  "eligibility": "Landholders seeking an applicable conversion of agricultural land to non-agricultural use.",
+  "steps": [
+    "Open the NALA application in Bhu Bharati.",
+    "Enter the required land and applicant information.",
+    "Complete the applicable payment.",
+    "Download the e-Challan and transaction summary.",
+    "Complete slot booking where required.",
+    "The application is forwarded to the concerned department for processing."
+  ],
+  "documents": [
+    "Relevant land details",
+    "Pattadar Passbook details, where applicable",
+    "Identity information",
+    "Other supporting land documents, where applicable"
+  ],
+  "department": "Revenue Department / Chief Commissioner of Land Administration",
+  "application_channel": "Bhu Bharati",
+  "source_title": "Telangana Bhu Bharati - NALA",
+  "source_url": "https://bhubharati.telangana.gov.in/",
+  "last_verified": "2026-09-15",
+  "translations": {
+  "te": {
+    "title": "భూమి మార్పిడి / NALA",
+    "summary": "వ్యవసాయ భూమిని వ్యవసాయేతర వినియోగానికి మార్చే ప్రక్రియను NALAగా సూచిస్తారు. తెలంగాణలో ఈ ప్రక్రియకు Bhu Bharatiలో ప్రత్యేక NALA సేవ ఉంది.",
+    "eligibility": "వ్యవసాయ భూమిని వ్యవసాయేతర వినియోగానికి మార్చాల్సిన భూ యజమానులు సంబంధిత NALA సేవ ద్వారా దరఖాస్తు చేయవచ్చు.",
+    "steps": [
+      "Bhu Bharati పోర్టల్‌లో NALA సేవను ఎంచుకోండి.",
+      "మీ వ్యక్తిగత మరియు భూమికి సంబంధించిన వివరాలను నమోదు చేయండి.",
+      "వర్తించే NALA రుసుమును పరిశీలించి చెల్లించండి.",
+      "e-Challan మరియు Transaction Summaryని డౌన్‌లోడ్ చేసుకోండి.",
+      "అవసరమైన Slot Booking పూర్తి చేయండి.",
+      "అవసరమైన ప్రక్రియ పూర్తయిన తర్వాత దరఖాస్తు శాఖ పరిశీలనకు పంపబడుతుంది.",
+      "భూమికి PPB లేకపోతే, వర్తించే NALA without PPB ప్రక్రియను ఉపయోగించండి."
+    ],
+    "documents": [
+      "భూమి వివరాలు",
+      "పట్టాదారు పాస్‌బుక్ వివరాలు, అందుబాటులో ఉంటే",
+      "గుర్తింపు వివరాలు",
+      "వర్తించే చలాన్ / చెల్లింపు వివరాలు"
+    ],
+    "department": "తెలంగాణ రెవెన్యూ శాఖ",
+    "application_channel": "Bhu Bharati"
+  }
+}
+},
+{
+  "id": "S1",
+  "category": "government_scheme",
+  "name": "Gruha Jyothi",
+  "keywords": [
+    "gruha jyothi",
+    "free electricity",
+    "200 units",
+    "electricity subsidy",
+    "గృహ జ్యోతి",
+    "ఉచిత విద్యుత్",
+    "200 యూనిట్లు"
+  ],
+  "title": "Gruha Jyothi",
+  "summary": "Gruha Jyothi provides eligible households with free electricity consumption up to 200 units per month.",
+  "eligibility": "Eligibility depends on the scheme's applicable household and beneficiary conditions.",
+  "steps": [
+    "Check whether your household meets the applicable eligibility conditions.",
+    "Ensure the required household and electricity-service information is available.",
+    "Apply or verify beneficiary information through the applicable government channel.",
+    "Eligible beneficiaries receive the applicable electricity benefit through the DISCOM billing system."
+  ],
+  "documents": [
+    "Aadhaar card",
+    "Food Security Card / eligible ration card",
+    "Electricity service connection details"
+  ],
+  "department": "Energy Department / Telangana Government",
+  "application_channel": "Praja Palana / approved government channels",
+  "source_title": "Telangana State Portal - Government Initiatives",
+  "source_url": "https://www.telangana.gov.in/government-initiatives/",
+  "last_verified": "2026-09-15",
+  "translations": {
+  "te": {
+    "title": "గృహ జ్యోతి పథకం",
+    "summary": "అర్హత ఉన్న కుటుంబాలకు నెలకు 200 యూనిట్ల వరకు ఉచిత విద్యుత్ అందించే తెలంగాణ ప్రభుత్వ పథకం గృహ జ్యోతి.",
+    "eligibility": "ప్రభుత్వం నిర్దేశించిన అర్హతలు కలిగిన కుటుంబాలు ఈ పథకం ప్రయోజనం పొందవచ్చు. ప్రస్తుత అధికారిక జిల్లా సమాచారంలో తక్కువ ఆదాయ కుటుంబాలు మరియు రేషన్ కార్డు కలిగిన కుటుంబాలను పేర్కొంటుంది.",
+    "steps": [
+      "మీ కుటుంబానికి పథకం వర్తిస్తుందో తెలుసుకోండి.",
+      "ఆధార్ మరియు చెల్లుబాటు అయ్యే Food Security Card / తెల్ల రేషన్ కార్డు వివరాలను సిద్ధంగా ఉంచండి.",
+      "Praja Palana లేదా ప్రభుత్వం ఆమోదించిన సంబంధిత మార్గం ద్వారా నమోదు / దరఖాస్తు ప్రక్రియను పూర్తి చేయండి.",
+      "మీ విద్యుత్ కనెక్షన్ వివరాలు నమోదు అయిన తర్వాత సంబంధిత DISCOM బిల్లులో పథకం ప్రయోజనం ప్రతిబింబిస్తుందో పరిశీలించండి."
+    ],
+    "documents": [
+      "ఆధార్ కార్డు",
+      "చెల్లుబాటు అయ్యే Food Security Card / తెల్ల రేషన్ కార్డు",
+      "విద్యుత్ సర్వీస్ కనెక్షన్ వివరాలు"
+    ],
+    "department": "తెలంగాణ ప్రభుత్వం / సంబంధిత DISCOM",
+    "application_channel": "Praja Palana లేదా ప్రభుత్వం ఆమోదించిన మార్గం"
+  }
+}
+},
+{
+  "id": "S3",
+  "category": "government_scheme",
+  "name": "Aasara Pension",
+  "keywords": [
+    "aasara",
+    "aasara pension",
+    "pension",
+    "old age pension",
+    "widow pension",
+    "disability pension",
+    "వృద్ధాప్య పెన్షన్",
+    "ఆసరా పెన్షన్",
+    "వితంతు పెన్షన్",
+    "వికలాంగుల",
+    "పెన్షన్‌",
+    "వికలాంగులు",
+    "వికలాంగుల పెన్షన్‌"
+  ],
+  "title": "Aasara Pension",
+  "summary": "Aasara is Telangana's social security pension programme for eligible vulnerable groups, including categories such as older persons, widows and persons with disabilities.",
+  "eligibility": "Eligibility depends on the applicable Aasara pension category and current government rules.",
+  "steps": [
+    "Identify the applicable Aasara pension category.",
+    "Check the current eligibility requirements.",
+    "Prepare the supporting documents for the relevant category.",
+    "Submit the application through the applicable government channel.",
+    "Track the application or pension status."
+  ],
+  "documents": [
+    "Aadhaar card",
+    "Age or birth proof, where applicable",
+    "Photograph",
+    "Bank account details",
+    "Category-specific supporting documents"
+  ],
+  "department": "Panchayat Raj & Rural Development / SERP",
+  "application_channel": "Applicable Telangana government pension service",
+  "source_title": "Telangana Aasara Pension Information",
+  "source_url": "https://www.rdcallcentre.telangana.gov.in/",
+  "last_verified": "2026-09-15",
+  "translations": {
+  "te": {
+    "title": "ఆసరా పెన్షన్",
+    "summary": "ఆసరా సామాజిక భద్రతా పెన్షన్ పథకం వృద్ధులు, విధవలు, దివ్యాంగులు మరియు ప్రభుత్వం గుర్తించిన ఇతర అర్హత గల వర్గాలకు సామాజిక భద్రతను అందించడానికి ఉద్దేశించబడింది.",
+    "eligibility": "అర్హతలు వర్గాన్ని బట్టి మారుతాయి. అధికారిక ఆసరా సమాచారంలో వృద్ధులు, విధవలు, దివ్యాంగులు, నేత కార్మికులు, గీత కార్మికులు, HIVతో జీవిస్తున్న వ్యక్తులు మరియు ఇతర అర్హత గల వర్గాలు ఉన్నాయి.",
+    "steps": [
+      "మీరు ఏ ఆసరా పెన్షన్ వర్గానికి చెందుతారో గుర్తించండి.",
+      "మీ అర్హతకు సంబంధించిన పత్రాలను సిద్ధం చేసుకోండి.",
+      "సంబంధిత స్థానిక ప్రభుత్వ కార్యాలయం లేదా ప్రభుత్వం సూచించిన మార్గంలో దరఖాస్తు చేయండి.",
+      "దరఖాస్తు పరిశీలన మరియు అర్హత నిర్ధారణ పూర్తయ్యే వరకు వేచి ఉండండి.",
+      "మీ దరఖాస్తు స్థితిని సంబంధిత అధికారిక వ్యవస్థ ద్వారా పరిశీలించండి."
+    ],
+    "documents": [
+      "ఆధార్ లేదా ఇతర గుర్తింపు పత్రం",
+      "వయస్సు / వర్గానికి సంబంధించిన ఆధార పత్రాలు",
+      "విధవ / దివ్యాంగత / వృత్తి వంటి సంబంధిత అర్హత పత్రాలు, వర్తించినప్పుడు",
+      "బ్యాంక్ ఖాతా వివరాలు, వర్తించినప్పుడు"
+    ],
+    "department": "తెలంగాణ గ్రామీణాభివృద్ధి / సంబంధిత సంక్షేమ శాఖ",
+    "application_channel": "సంబంధిత స్థానిక ప్రభుత్వ కార్యాలయం / అధికారిక ఆసరా వ్యవస్థ"
+  }
+}
+},
+{
+  "id": "S4",
+  "category": "government_scheme",
+  "name": "Kalyana Lakshmi / Shaadi Mubarak",
+  "keywords": [
+    "kalyana lakshmi",
+    "shaadi mubarak",
+    "marriage assistance",
+    "marriage scheme",
+    "marriage",
+    "pelli",
+    "పెళ్లి",
+    "కళ్యాణ లక్ష్మి",
+    "షాదీ ముబారక్",
+    "పెళ్లి సహాయం"
+  ],
+  "title": "Kalyana Lakshmi / Shaadi Mubarak",
+  "summary": "Kalyana Lakshmi and Shaadi Mubarak are Telangana welfare schemes providing financial assistance related to eligible marriages.",
+  "eligibility": "Eligibility depends on the applicable community, income, age, residence and other scheme conditions.",
+  "steps": [
+    "Check the current eligibility requirements for the applicable scheme.",
+    "Prepare the bride's identity, residence, age, income and marriage-related documents.",
+    "Submit the application through the applicable Telangana ePASS process.",
+    "Track the application and respond to any verification requirements."
+  ],
+  "documents": [
+    "Aadhaar or identity proof",
+    "Residence proof",
+    "Age proof",
+    "Income certificate",
+    "Marriage-related documents",
+    "Bank account details",
+    "Community/caste certificate where applicable"
+  ],
+  "department": "Backward Classes Welfare / Minority Welfare and applicable departments",
+  "application_channel": "Telangana ePASS",
+  "source_title": "Government of Telangana - Kalyana Lakshmi / Shaadi Mubarak",
+  "source_url": "https://telanganaepass.cgg.gov.in/",
+  "last_verified": "2026-09-15",
+  "translations": {
+  "te": {
+    "title": "కళ్యాణ లక్ష్మి / షాదీ ముబారక్",
+    "summary": "తెలంగాణ ప్రభుత్వం వివాహ సమయంలో అర్హత ఉన్న కుటుంబాలకు ఆర్థిక సహాయం అందించడానికి కళ్యాణ లక్ష్మి మరియు షాదీ ముబారక్ పథకాలను అమలు చేస్తోంది.",
+    "eligibility": "అర్హతలు వధువు వయస్సు, తెలంగాణ నివాసం, సామాజిక వర్గం మరియు కుటుంబ ఆదాయం వంటి నిబంధనలపై ఆధారపడి ఉంటాయి. దరఖాస్తు చేయడానికి ముందు తాజా అధికారిక మార్గదర్శకాలను పరిశీలించాలి.",
+    "steps": [
+      "మీరు కళ్యాణ లక్ష్మి లేదా షాదీ ముబారక్‌కు అర్హులా అని పరిశీలించండి.",
+      "వధువు వయస్సు మరియు తెలంగాణ నివాసానికి సంబంధించిన వివరాలను సిద్ధం చేయండి.",
+      "కుటుంబ ఆదాయం మరియు సామాజిక వర్గానికి సంబంధించిన పత్రాలను సిద్ధం చేయండి.",
+      "Telangana ePASS ద్వారా సంబంధిత పథకానికి దరఖాస్తు చేయండి.",
+      "దరఖాస్తు పరిశీలన మరియు ఆమోదం పూర్తయ్యే వరకు వేచి ఉండండి.",
+      "దరఖాస్తు స్థితిని అధికారిక ePASS వ్యవస్థలో పరిశీలించండి."
+    ],
+    "documents": [
+      "వధువు ఆధార్ కార్డు",
+      "నివాస ధృవీకరణ / సంబంధిత నివాస వివరాలు",
+      "ఆదాయ ధృవీకరణ పత్రం",
+      "కుల / వర్గ ధృవీకరణ పత్రం, వర్తించినప్పుడు",
+      "వివాహానికి సంబంధించిన పత్రాలు",
+      "బ్యాంక్ ఖాతా వివరాలు, వర్తించినప్పుడు"
+    ],
+    "department": "తెలంగాణ ప్రభుత్వం / సంబంధిత సంక్షేమ శాఖ",
+    "application_channel": "Telangana ePASS"
+  }
+}
+},
+{
+  "id": "C4",
+  "category": "certificate",
+  "name": "Birth / Death Certificate",
+  "keywords": [
+    "birth certificate",
+    "death certificate",
+    "birth registration",
+    "death registration",
+    "జనన ధృవీకరణ పత్రం",
+    "మరణ ధృవీకరణ పత్రం",
+    "జనన సర్టిఫికేట్",
+    "మరణ సర్టిఫికేట్"
+  ],
+  "title": "Birth / Death Certificate",
+  "summary": "Birth and death certificates are official records issued through the applicable registration authority in Telangana.",
+  "eligibility": "Citizens who need to register, obtain or correct a birth or death record.",
+  "steps": [
+    "Identify the applicable registration authority for the event.",
+    "Submit the registration or certificate request through the applicable government channel.",
+    "Provide the required event and applicant information.",
+    "For corrections or non-availability cases, use the applicable specialized service.",
+    "Obtain or download the certificate when issued."
+  ],
+  "documents": [
+    "Event-related supporting document",
+    "Identity information of the applicant",
+    "Hospital or institutional record, where applicable",
+    "Other documents prescribed for the particular registration or correction"
+  ],
+  "department": "Commissioner & Director of Municipal Administration / applicable local registration authority",
+  "application_channel": "Telangana State Services / MeeSeva / applicable local authority",
+  "source_title": "Telangana State Portal - State Services",
+  "source_url": "https://www.telangana.gov.in/services/state-services/",
+  "last_verified": "2026-09-15",
+  "translations": {
+  "te": {
+    "title": "జనన / మరణ ధృవీకరణ పత్రం",
+    "summary": "జననం లేదా మరణం అధికారికంగా నమోదైనట్లు నిర్ధారించే పత్రం ఇది. అవసరాన్ని బట్టి జనన ధృవీకరణ పత్రం లేదా మరణ ధృవీకరణ పత్రాన్ని పొందవచ్చు.",
+    "eligibility": "జననం లేదా మరణం నమోదు చేసిన వ్యక్తి లేదా సంబంధిత కుటుంబ సభ్యులు ధృవీకరణ పత్రాన్ని పొందవచ్చు.",
+    "steps": [
+      "సంబంధిత ప్రభుత్వ సేవ ద్వారా జనన లేదా మరణ ధృవీకరణ పత్రానికి దరఖాస్తు చేయండి.",
+      "జననం లేదా మరణానికి సంబంధించిన అవసరమైన వివరాలను నమోదు చేయండి.",
+      "అవసరమైన పత్రాలను సమర్పించండి.",
+      "రికార్డు పరిశీలన పూర్తయ్యే వరకు వేచి ఉండండి.",
+      "జారీ అయిన ధృవీకరణ పత్రాన్ని పొందండి."
+    ],
+    "documents": [
+      "అవసరమైన దరఖాస్తు ఫారం",
+      "జననం లేదా మరణానికి సంబంధించిన వివరాలు",
+      "అందుబాటులో ఉన్న సంబంధిత ఆధార పత్రాలు"
+    ],
+    "department": "మున్సిపల్ పరిపాలన మరియు పట్టణాభివృద్ధి శాఖ / సంబంధిత స్థానిక సంస్థ",
+    "application_channel": "MeeSeva / సంబంధిత స్థానిక సంస్థ"
+  }
+}
+},
+{
+  "id": "S2",
+  "category": "government_scheme",
+  "name": "Maha Lakshmi",
+  "keywords": [
+    "maha lakshmi",
+    "mahalakshmi",
+    "maha lakshmi scheme",
+    "mahalakshmi scheme",
+    "free bus",
+    "free bus travel",
+    "free rtc bus",
+    "500 gas cylinder",
+    "500 rupees gas cylinder",
+    "lpg subsidy",
+    "women scheme",
+    "మహాలక్ష్మి",
+    "మహా లక్ష్మి",
+    "మహాలక్ష్మి పథకం",
+    "ఉచిత బస్సు",
+    "ఉచిత బస్ ప్రయాణం",
+    "500 రూపాయల గ్యాస్",
+    "గ్యాస్ సిలిండర్",
+    "ఎల్పీజీ సిలిండర్"
+  ],
+  "title": "Maha Lakshmi Scheme",
+  "summary": "The Maha Lakshmi scheme is a Telangana government initiative associated with women, girls and transgender persons. Current official district information describes free travel on eligible TGRTC Palle Velugu and Express buses within Telangana and subsidized domestic LPG cylinders at ₹500.",
+  "eligibility": "Eligibility and benefit conditions depend on the specific Maha Lakshmi benefit. Current official district information identifies Telangana women, girls and transgender persons for the free bus-travel benefit.",
+  "steps": [
+    "For eligible free bus travel, carry Aadhaar or the required identity document.",
+    "Show the identity document to the bus conductor when using the eligible TGRTC service.",
+    "For the subsidized LPG benefit, follow the applicable government and LPG distributor process.",
+    "Check the latest official Telangana information before relying on benefit amounts or eligibility conditions."
+  ],
+  "documents": [
+    "Aadhaar card or applicable identity proof",
+    "LPG consumer or connection details, where applicable",
+    "Ration card or other supporting document, where applicable"
+  ],
+  "department": "Government of Telangana / applicable departments",
+  "application_channel": "TGRTC / applicable LPG distributor and government channels",
+  "source_title": "Telangana Government - Maha Lakshmi",
+  "source_url": "https://www.telangana.gov.in/government-initiatives/",
+  "last_verified": "2026-09-16",
+  "translations": {
+  "te": {
+    "title": "మహాలక్ష్మి పథకం",
+    "summary": "మహాలక్ష్మి తెలంగాణ ప్రభుత్వ మహిళా సాధికారత పథకం. తెలంగాణ రాష్ట్ర అధికారిక సమాచారం ప్రకారం ఇందులో మహిళా కుటుంబ పెద్దలకు ఆర్థిక సహాయం, ₹500కు LPG గ్యాస్ సిలిండర్ మరియు తెలంగాణ అంతటా ఉచిత TSRTC బస్సు ప్రయాణం వంటి ప్రయోజనాలు ఉన్నాయి.",
+    "eligibility": "ప్రతి ప్రయోజనానికి వర్తించే అర్హతలు మరియు అమలు విధానం వేర్వేరుగా ఉండవచ్చు. తాజా అధికారిక నిబంధనలను పరిశీలించిన తర్వాత మాత్రమే ప్రయోజనం పొందడానికి ప్రయత్నించండి.",
+    "steps": [
+      "మీకు కావాల్సిన మహాలక్ష్మి ప్రయోజనం ఏదో ముందుగా గుర్తించండి.",
+      "ఉచిత TSRTC ప్రయాణానికి వర్తించే గుర్తింపు పత్రాన్ని వెంట తీసుకెళ్లండి.",
+      "బస్సులో ప్రయాణించే సమయంలో అవసరమైన గుర్తింపు పత్రాన్ని కండక్టర్‌కు చూపించండి.",
+      "LPG ప్రయోజనం కోసం సంబంధిత LPG పంపిణీదారు మరియు ప్రభుత్వ విధానాన్ని అనుసరించండి.",
+      "ఆర్థిక సహాయం లేదా ఇతర ప్రయోజనాలకు సంబంధించి తాజా అధికారిక ప్రకటనలను పరిశీలించండి."
+    ],
+    "documents": [
+      "ఆధార్ లేదా వర్తించే గుర్తింపు పత్రం",
+      "LPG వినియోగదారు / కనెక్షన్ వివరాలు, వర్తించినప్పుడు",
+      "రేషన్ కార్డు లేదా ఇతర సంబంధిత పత్రాలు, వర్తించినప్పుడు"
+    ],
+    "department": "తెలంగాణ ప్రభుత్వం / సంబంధిత శాఖలు",
+    "application_channel": "TSRTC / సంబంధిత LPG పంపిణీదారు / ప్రభుత్వం ఆమోదించిన మార్గాలు"
+  }
+}
+}
+
+
+]
