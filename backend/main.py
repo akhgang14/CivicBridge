@@ -1,5 +1,8 @@
 from dotenv import load_dotenv
 load_dotenv()
+
+import os
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from api.chat import router as chat_router
@@ -8,11 +11,14 @@ from api import document
 
 app = FastAPI(title="CivicBridge API")
 
+frontend_url = os.getenv(
+    "FRONTEND_URL",
+    "http://localhost:3000"
+)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",
-        "https://YOUR-FRONTEND-DOMAIN.vercel.app",
+        frontend_url
     ],
     allow_credentials=True,
     allow_methods=["*"],
