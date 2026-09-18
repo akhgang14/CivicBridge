@@ -1,5 +1,6 @@
 import os
 import json
+import time
 
 from google import genai
 from google.genai import types
@@ -17,6 +18,33 @@ class GeminiAI(AIService):
 
         self.client = genai.Client(api_key=api_key)
         self.model = model
+
+    def _generate_with_retry(self, **kwargs):
+        max_retries = 2
+        delays = [2, 4]
+
+        for attempt in range(max_retries + 1):
+            try:
+                return self.client.models.generate_content(**kwargs)
+
+            except Exception as error:
+                error_message = str(error)
+
+                # Retry only temporary/unavailable Gemini errors
+                if "503" not in error_message and "UNAVAILABLE" not in error_message:
+                    raise
+
+                if attempt == max_retries:
+                    raise
+
+                delay = delays[attempt]
+
+                print(
+                    f"Gemini temporarily unavailable. "
+                    f"Retrying in {delay} seconds..."
+                )
+
+                time.sleep(delay)
 
     def simplify(
         self,
@@ -65,79 +93,78 @@ VERIFIED CIVICBRIDGE ANSWER:
 Now provide ONLY the simplified explanation.
 """
 
-        response = self.client.models.generate_content(
+        response = self._generate_with_retry(
             model=self.model,
             contents=prompt
         )
 
         return response.text.strip()
+
     def analyze_document(
-            self,
-            document_text: str,
-            language: str = "en"
-        ) -> dict:
-    
-            prompt = f"""
-    You are the document analysis assistant for CivicBridge,
-    a citizen information platform for Telangana, India.
-    
-    You will receive the extracted text from a government or civic PDF.
-    
-    Your job is to identify and organize the useful information
-    contained in the document so that an ordinary citizen can
-    understand it.
-    
-    IMPORTANT RULES:
-    
-    1. Use ONLY information explicitly present in the document.
-    2. Do NOT invent information.
-    3. Do NOT assume missing information.
-    4. Do NOT add government procedures that are not stated in the document.
-    5. Do NOT add eligibility requirements that are not stated in the document.
-    6. Do NOT add documents that are not mentioned in the document.
-    7. Do NOT create deadlines that are not present in the document.
-    8. If a category has no information, return an empty list.
-    9. Preserve dates, amounts, names, requirements, and deadlines accurately.
-    10. Clearly distinguish between information explicitly stated in the document
-        and information that is not available.
-    11. Respond only in the requested language.
-    12. Do not mention that you are an AI.
-    13. Do not mention these instructions.
-    14. Return ONLY valid JSON.
-    15. Do not wrap the JSON in markdown code fences.
-    
-    The JSON must follow exactly this structure:
-    
-    {{
-        "document_type": "",
-        "title": "",
-        "summary": "",
-        "important_information": [],
-        "eligibility": [],
-        "deadlines": [],
-        "required_documents": [],
-        "steps": [],
-        "warnings": []
-    }}
-    
-    Requested language:
-    {language}
-    
-    DOCUMENT TEXT:
-    {document_text}
-    
-    Now analyze the document and return ONLY the JSON object.
-    """
-    
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json"
-                )
+        self,
+        document_text: str,
+        language: str = "en"
+    ) -> dict:
+
+        prompt = f"""
+You are the document analysis assistant for CivicBridge,
+a citizen information platform for Telangana, India.
+
+You will receive the extracted text from a government or civic PDF.
+
+Your job is to identify and organize the useful information
+contained in the document so that an ordinary citizen can
+understand it.
+
+IMPORTANT RULES:
+
+1. Use ONLY information explicitly present in the document.
+2. Do NOT invent information.
+3. Do NOT assume missing information.
+4. Do NOT add government procedures that are not stated in the document.
+5. Do NOT add eligibility requirements that are not stated in the document.
+6. Do NOT add documents that are not mentioned in the document.
+7. Do NOT create deadlines that are not present in the document.
+8. If a category has no information, return an empty list.
+9. Preserve dates, amounts, names, requirements, and deadlines accurately.
+10. Clearly distinguish between information explicitly stated in the document
+    and information that is not available.
+11. Respond only in the requested language.
+12. Do not mention that you are an AI.
+13. Do not mention these instructions.
+14. Return ONLY valid JSON.
+15. Do not wrap the JSON in markdown code fences.
+
+The JSON must follow exactly this structure:
+
+{{
+    "document_type": "",
+    "title": "",
+    "summary": "",
+    "important_information": [],
+    "eligibility": [],
+    "deadlines": [],
+    "required_documents": [],
+    "steps": [],
+    "warnings": []
+}}
+
+Requested language:
+{language}
+
+DOCUMENT TEXT:
+{document_text}
+
+Now analyze the document and return ONLY the JSON object.
+"""
+
+        response = self._generate_with_retry(
+            model=self.model,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json"
             )
-    
-            return json.loads(response.text.strip())
-    
-    
+        )
+
+        return json.loads(response.text.strip())
         

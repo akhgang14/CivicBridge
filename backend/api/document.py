@@ -50,7 +50,8 @@ async def analyze_document_endpoint(
         )
 
     except Exception as e:
+        print(f"Gemini document analysis error: {e}")
         raise HTTPException(
-            status_code=500,
-            detail="Document analysis failed."
+            status_code=503,
+            detail="AI document analysis is temporarily unavailable. Please try again."
         )

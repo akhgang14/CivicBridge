@@ -54,7 +54,10 @@ export default function Home() {
   // --------------------------------
   const [simplifying, setSimplifying] = useState(false);
   const [simplifiedResponse, setSimplifiedResponse] =
-    useState<SimplifyResponse | null>(null);
+  useState<SimplifyResponse | null>(null);
+  const [simplifyError, setSimplifyError] = useState("");
+  
+
 
   const [selectedModel, setSelectedModel] = useState(
     "gemini-3.5-flash-lite"
@@ -126,6 +129,7 @@ export default function Home() {
 
     setSimplifying(true);
     setSimplifiedResponse(null);
+    setSimplifyError("");
 
     try {
       const result = await fetch(
@@ -155,10 +159,10 @@ export default function Home() {
     } catch (error) {
       console.error(error);
 
-      alert(
+      setSimplifyError(
         error instanceof Error
           ? error.message
-          : "AI simplification is temporarily unavailable."
+          : "AI simplification is temporarily unavailable. Please try again."
       );
     } finally {
       setSimplifying(false);
@@ -381,7 +385,11 @@ export default function Home() {
           {/* Document error */}
           {documentError && (
             <div className="mt-4 rounded-xl bg-red-50 p-4 text-sm text-red-700">
-              {documentError}
+              <p>{documentError}</p>
+
+              <p className="mt-1 text-xs text-red-600">
+                You can try analyzing the same PDF again.
+              </p>
             </div>
           )}
 
@@ -390,13 +398,14 @@ export default function Home() {
             onClick={analyzeDocument}
             disabled={
               !selectedFile ||
-              documentLoading ||
-              !!documentError
+              documentLoading
             }
             className="mt-4 rounded-xl bg-slate-900 px-6 py-3 font-medium text-white disabled:opacity-50"
           >
             {documentLoading
               ? "Analyzing document..."
+              : documentError
+              ? "Try Again"
               : "Analyze PDF"}
           </button>
         </div>
@@ -712,6 +721,22 @@ export default function Home() {
                   ? "Simplifying..."
                   : "✨ Simplify with AI"}
               </button>
+
+
+              {/* AI simplification error */}
+              {simplifyError && (
+                <div className="mt-6 rounded-xl bg-red-50 p-4 text-sm text-red-700">
+                  <p>{simplifyError}</p>
+                  <button
+                  onClick={simplifyAnswer}
+                  disabled={simplifying}
+                  className="mt-3 rounded-lg bg-red-700 px-4 py-2 font-medium text-white disabled:opacity-50"
+                  >
+                    {simplifying ? "Trying again..." : "Try Again"}
+                  </button>
+                  </div>
+              )}
+
 
               {/* AI response */}
               {simplifiedResponse && (

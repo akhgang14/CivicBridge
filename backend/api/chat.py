@@ -138,10 +138,18 @@ def simplify_chat(request: SimplifyRequest):
             detail="No verified CivicBridge information was found for this question."
         )
 
+    # Validate and create the AI service
     try:
-
         ai = get_ai_service(request.model)
 
+    except ValueError as error:
+        raise HTTPException(
+            status_code=400,
+            detail=str(error)
+        )
+
+    # Call Gemini
+    try:
         explanation = ai.simplify(
             original_question=request.message,
             verified_answer=service,
@@ -159,6 +167,5 @@ def simplify_chat(request: SimplifyRequest):
 
         raise HTTPException(
             status_code=503,
-            detail="AI simplification is temporarily unavailable."
+            detail="AI simplification is temporarily unavailable. Please try again."
         )
-
