@@ -11,14 +11,11 @@ from api import document
 
 app = FastAPI(title="CivicBridge API")
 
-frontend_url = os.getenv(
-    "FRONTEND_URL",
-    "http://localhost:3000"
-)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        frontend_url
+        "http://localhost:3000",
+        "https://civicbridge-frontend-seven.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
