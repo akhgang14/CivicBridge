@@ -52,7 +52,7 @@ The platform combines a modern web interface, a FastAPI backend, document proces
                     ┌─────────────────────┐
                     │   CivicBridge       │
                     │   Frontend          │
-                    │   Next.js            │
+                    │   Next.js           │
                     └──────────┬──────────┘
                                │
                          HTTP / API
@@ -69,8 +69,8 @@ The platform combines a modern web interface, a FastAPI backend, document proces
        │ Chat API   │   │ Document API │   │ Knowledge  │
        │            │   │              │   │ Base       │
        └─────┬──────┘   └──────┬───────┘   └─────┬──────┘
-             │                 │                  │
-             └─────────────────┼──────────────────┘
+             │                 │                 │
+             └─────────────────┼─────────────────┘
                                ▼
                     ┌─────────────────────┐
                     │    Gemini AI        │
