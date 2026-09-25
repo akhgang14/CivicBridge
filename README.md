@@ -454,7 +454,7 @@ The goal is to reduce the complexity of navigating government-related informatio
 
 **Code Blooded**
 
-Built as part of a hackathon project.
+Built as part of a hackathon project. Completely built by **Akhila Gangone**, Team Leader of Team Code Blooded.
 
 ---
 
